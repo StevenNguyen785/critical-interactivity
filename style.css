@@ -1,0 +1,82 @@
+/* CSS Reset - Page Align All */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Full Background of Anonymous Green Code Wallpaper */
+html {
+  background: url(hacking.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* Blue Anonymous Face */
+#box-1 img {
+  opacity: 0.3;
+  filter: alpha(opacity=50);
+  height: auto;
+  width: auto;
+}
+#box-1 img:hover {
+  opacity: 1.0;
+  filter: alpha(opacity=100);
+}
+
+
+
+/* Curtain Page */
+
+#bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  /* Preserve aspet ratio */
+  min-width: 100%;
+  min-height: 100%;
+}
+
+
+
+
+
+
+
+
+h2 {
+  color: green
+}
+
+h3 {
+  color: blue;
+}
+
+
+
+
+
+/* #box-1 {
+  background-color: red;
+  border-width: 3px;
+  border-color: black;
+  border-style: solid;
+} */
+
+
+
+
+#box-1 {
+  /* background: url('./img/download(2).jpeg'); */
+  color: white;
+  height: auto;
+  width: auto;
+}
+.center {
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 2%;
+}
